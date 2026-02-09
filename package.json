@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@hono/node-server": "^1.19.9",
+    "hono": "^4.11.7"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0"
+  },
+  "name": "roo-hono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hladikes/roo-hono.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Hladikes/roo-hono/issues"
+  },
+  "homepage": "https://github.com/Hladikes/roo-hono#readme"
+}
