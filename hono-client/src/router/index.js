@@ -13,8 +13,8 @@ const router = createRouter({
       component: () => import('../views/Profile.vue')
     },
     {
-      path: '/watch/:videoId',
-      component: () => import('../views/Watch.vue')
+      path: '/settings',
+      component: () => import('../views/Settings.vue')
     }
   ]
 })
