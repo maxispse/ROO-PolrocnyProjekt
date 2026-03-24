@@ -1,5 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import Profile from '../views/Profile.vue'
+import Settings from '../views/Settings.vue'
+import Stars from '../views/Stars.vue'
+import LoginPage from '../views/Login/LoginPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -10,13 +14,22 @@ const router = createRouter({
     },
     {
       path: '/profile/:username',
-      component: () => import('../views/Profile.vue')
+      component: Profile
     },
     {
       path: '/settings',
-      component: () => import('../views/Settings.vue')
+      component: Settings
+    },
+    {
+      path: '/stars',
+      component: Stars
+    },
+    {
+      path: '/LoginPage',
+      component: LoginPage
     }
   ]
 })
+
 
 export default router

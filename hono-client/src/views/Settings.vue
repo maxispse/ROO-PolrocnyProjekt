@@ -1,10 +1,9 @@
-<script setup>
+<script setup lang="ts">
+import { h } from 'vue';
 </script>
 
+
+
 <template>
-  <div class="w-full h-screen flex flex-col">
-
-    
-
-  </div>
+  <h1> Settings </h1>
 </template>
